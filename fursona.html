@@ -1,0 +1,39 @@
+---
+layout: page
+title: Fursona
+subtitle: "Reference, description &amp; colors. Art by <a href=\"https://neonslushie.com\">Neon Slushie</a>."
+permalink: /fursona
+redirect_from:
+  - /sona
+  - /ref
+  - /reference
+---
+<div class="colors container text-center gmb">
+  <p>Red, silver &amp; cream colored male timber wolf; 5'10"; average; he/him.</p>
+  <button type="button" class="btn text-dark" style="background-color: #b2aea3 !important;" data-clipboard-text="b2aea3">#b2aea3 fur</button>
+  <button type="button" class="btn text-dark" style="background-color: #fcf5c5 !important;" data-clipboard-text="fcf5c5">#fcf5c5 fur</button>
+  <button type="button" class="btn" style="background-color: #584d46 !important;" data-clipboard-text="584d46">#584d46 stripe &amp; claws</button>
+  <button type="button" class="btn" style="background-color: #c63f26 !important;" data-clipboard-text="c63f26">#c63f26 tongue &amp; accents</button>
+  <button type="button" class="btn" style="background-color: #6d4639 !important;" data-clipboard-text="6d4639">#6d4639 fur accents</button>
+  <button type="button" class="btn" style="background-color: #623c35 !important;" data-clipboard-text="623c35">#623c35 paw pads &amp; nose</button>
+  <button type="button" class="btn text-dark" style="background-color: #f1a73e !important;" data-clipboard-text="f1a73e">#f1a73e fur accents &amp; eyes</button>
+  <button type="button" class="btn text-dark" style="background-color: #ffffff !important;" data-clipboard-text="ffffff">#ffffff teeth</button>
+  <p class="small m-0">Click buttons above to copy hex code or <a href="/images/fursona.png" download>download raster file ({{ './images/fursona.png' | file_size | divided_by: 1024.0 | divided_by: 1024.0 | round: 2 }}MB)</a>.</p>
+</div>
+<div class="reference container">
+  <div class="row text-center m-0">
+    <div class="col-sm-4">
+      <img src="/images/neonslushie-front.svg" alt="Front">
+    </div>
+    <div class="col-sm-4">
+      <img src="/images/neonslushie-side.svg" alt="Side">
+    </div>
+    <div class="col-sm-4">
+      <img src="/images/neonslushie-back.svg" alt="Back">
+    </div>
+  </div>
+</div>
+<script src="/node_modules/clipboard/dist/clipboard.min.js"></script>
+<script>
+  new ClipboardJS('.btn');
+</script>
