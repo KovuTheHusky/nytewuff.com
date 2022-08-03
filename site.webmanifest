@@ -1,0 +1,14 @@
+{
+  "name": "nytewuff",
+  "short_name": "nytewuff",
+  "icons": [
+      {
+          "src": "/android-chrome-192x192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+      }
+  ],
+  "theme_color": "#c63f26",
+  "background_color": "#c63f26",
+  "display": "standalone"
+}
