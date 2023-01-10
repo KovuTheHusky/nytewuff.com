@@ -85,7 +85,8 @@ tiny-emitter@^2.0.0:
 
 twemoji-git@twitter/twemoji:
   version "14.0.2"
-  resolved "https://codeload.github.com/twitter/twemoji/tar.gz/ad3d3d669bb3697946577247ebb15818f09c6c91"
+  uid abb5a1add2b706520d0d9d6f023297761e64e1c7
+  resolved "https://codeload.github.com/twitter/twemoji/tar.gz/abb5a1add2b706520d0d9d6f023297761e64e1c7"
   dependencies:
     fs-extra "^8.0.1"
     jsonfile "^5.0.0"
