@@ -27,8 +27,8 @@ importers:
         specifier: ^14.0.2
         version: 14.0.2
       twemoji-git:
-        specifier: twitter/twemoji
-        version: twemoji@git+https://git@github.com:twitter/twemoji.git#d94f4cf793e6d5ca592aa00f58a88f6a4229ad43
+        specifier: github:twitter/twemoji
+        version: twemoji@https://codeload.github.com/twitter/twemoji/tar.gz/d94f4cf793e6d5ca592aa00f58a88f6a4229ad43
 
 packages:
 
@@ -81,8 +81,8 @@ packages:
   twemoji@14.0.2:
     resolution: {integrity: sha512-BzOoXIe1QVdmsUmZ54xbEH+8AgtOKUiG53zO5vVP2iUu6h5u9lN15NcuS6te4OY96qx0H7JK9vjjl9WQbkTRuA==}
 
-  twemoji@git+https://git@github.com:twitter/twemoji.git#d94f4cf793e6d5ca592aa00f58a88f6a4229ad43:
-    resolution: {commit: d94f4cf793e6d5ca592aa00f58a88f6a4229ad43, repo: git@github.com:twitter/twemoji.git, type: git}
+  twemoji@https://codeload.github.com/twitter/twemoji/tar.gz/d94f4cf793e6d5ca592aa00f58a88f6a4229ad43:
+    resolution: {tarball: https://codeload.github.com/twitter/twemoji/tar.gz/d94f4cf793e6d5ca592aa00f58a88f6a4229ad43}
     version: 14.0.2
 
   universalify@0.1.2:
@@ -144,7 +144,7 @@ snapshots:
       twemoji-parser: 14.0.0
       universalify: 0.1.2
 
-  twemoji@git+https://git@github.com:twitter/twemoji.git#d94f4cf793e6d5ca592aa00f58a88f6a4229ad43:
+  twemoji@https://codeload.github.com/twitter/twemoji/tar.gz/d94f4cf793e6d5ca592aa00f58a88f6a4229ad43:
     dependencies:
       fs-extra: 8.1.0
       jsonfile: 5.0.0
