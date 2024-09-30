@@ -21,8 +21,8 @@ importers:
         specifier: ^3.7.1
         version: 3.7.1
       simple-icons:
-        specifier: ^13.11.0
-        version: 13.11.0
+        specifier: ^13.12.0
+        version: 13.12.0
       twemoji:
         specifier: ^14.0.2
         version: 14.0.2
@@ -68,8 +68,8 @@ packages:
   select@1.1.2:
     resolution: {integrity: sha512-OwpTSOfy6xSs1+pwcNrv0RBMOzI39Lp3qQKUTPVVPRjCdNa5JH/oPRiqsesIskK8TVgmRiHwO4KXlV2Li9dANA==}
 
-  simple-icons@13.11.0:
-    resolution: {integrity: sha512-7MevuibJInmGRsq3PdLN/vpa+ifv/4/SoZQHpJ08aaB8/Ab17ZfZbm+j/K5PMwxkemSVZWpm4cqRlMXHDCEMww==}
+  simple-icons@13.12.0:
+    resolution: {integrity: sha512-UY6Zpet45M8ON24y0x3LsvNkh7a+zxzX4u8KulYXEbJnQ8J1mdel9Tl+7aKmpvKck0TYsU7K58RhfRwd2/7G1Q==}
     engines: {node: '>=0.12.18'}
 
   tiny-emitter@2.1.0:
@@ -131,7 +131,7 @@ snapshots:
 
   select@1.1.2: {}
 
-  simple-icons@13.11.0: {}
+  simple-icons@13.12.0: {}
 
   tiny-emitter@2.1.0: {}
 
