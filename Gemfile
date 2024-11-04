@@ -20,4 +20,4 @@ end
 gem "wdm", "~> 0.2", :install_if => Gem.win_platform?
 
 gem "nokogiri", "~> 1.16"
-gem "webrick", "~> 1.8"
+gem "webrick", "~> 1.9"
