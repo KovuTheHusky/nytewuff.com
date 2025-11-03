@@ -12,8 +12,8 @@ importers:
         specifier: ^2.11.8
         version: 2.11.8
       '@twemoji/api':
-        specifier: ^16.0.1
-        version: 16.0.1
+        specifier: ^17.0.0
+        version: 17.0.0
       bootstrap:
         specifier: ^5.3.8
         version: 5.3.8(@popperjs/core@2.11.8)
@@ -32,11 +32,11 @@ packages:
   '@popperjs/core@2.11.8':
     resolution: {integrity: sha512-P1st0aksCrn9sGZhp8GMYwBnQsbvAWsZAX44oXNNvLHGqAOcoVxmjZiohstwQ7SqKnbR47akdNi+uleWD8+g6A==}
 
-  '@twemoji/api@16.0.1':
-    resolution: {integrity: sha512-qe7QHeJKVLGNciwAMbu1S872PX5bt1RY0+0xqvN7gNQ+zd3MyRJ5n7dZowEJWYRAgTN5bAUGshD1YAmkFkyAkA==}
+  '@twemoji/api@17.0.0':
+    resolution: {integrity: sha512-qH8fWEVnIEniL43lELMSRbWX5JRDj/Om/CgO8OdpmtBCXQB5EsxYcbhWvNany0thGGxo6YESGmvgSkm+RVgqKQ==}
 
-  '@twemoji/parser@16.0.0':
-    resolution: {integrity: sha512-jmuIjkp3OIaEemwMy3sArBwZSuZkRqmueGwRe2Zk4cFzbUJISFBJSZLDUUBNIgq3c+nY49ideYN2OiII6JUqwA==}
+  '@twemoji/parser@17.0.0':
+    resolution: {integrity: sha512-UsFCnivUCUq/UHJhfM3bd3L35VerCi76jYwT5nFNHUnESDKefNav0z2l0jdoFVbcq72n3llr6AQrOlcrStPE1Q==}
 
   bootstrap@5.3.8:
     resolution: {integrity: sha512-HP1SZDqaLDPwsNiqRqi5NcP0SSXciX2s9E+RyqJIIqGo+vJeN5AJVM98CXmW/Wux0nQ5L7jeWUdplCEf0Ee+tg==}
@@ -86,14 +86,14 @@ snapshots:
 
   '@popperjs/core@2.11.8': {}
 
-  '@twemoji/api@16.0.1':
+  '@twemoji/api@17.0.0':
     dependencies:
-      '@twemoji/parser': 16.0.0
+      '@twemoji/parser': 17.0.0
       fs-extra: 8.1.0
       jsonfile: 5.0.0
       universalify: 0.1.2
 
-  '@twemoji/parser@16.0.0': {}
+  '@twemoji/parser@17.0.0': {}
 
   bootstrap@5.3.8(@popperjs/core@2.11.8):
     dependencies:
