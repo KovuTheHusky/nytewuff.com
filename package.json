@@ -2,7 +2,7 @@
   "license": "UNLICENSED",
   "dependencies": {
     "@popperjs/core": "^2.11.8",
-    "@twemoji/api": "^16.0.1",
+    "@twemoji/api": "^17.0.1",
     "bootstrap": "^5.3.8",
     "clipboard": "^2.0.11",
     "jquery": "^3.7.1",
