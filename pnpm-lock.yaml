@@ -24,8 +24,8 @@ importers:
         specifier: ^4.0.0
         version: 4.0.0
       simple-icons:
-        specifier: ^16.5.0
-        version: 16.5.0
+        specifier: ^16.6.0
+        version: 16.6.0
 
 packages:
 
@@ -71,8 +71,8 @@ packages:
   select@1.1.2:
     resolution: {integrity: sha512-OwpTSOfy6xSs1+pwcNrv0RBMOzI39Lp3qQKUTPVVPRjCdNa5JH/oPRiqsesIskK8TVgmRiHwO4KXlV2Li9dANA==}
 
-  simple-icons@16.5.0:
-    resolution: {integrity: sha512-72nn0oHADKx6Hknu7q6M0vfL8LiCUMKABOHane2+4xdqaFBSHfNNBjuZioihiqVQMz7IvVle4NKAM0IlXvl/9A==}
+  simple-icons@16.6.0:
+    resolution: {integrity: sha512-lzSVlAhflhwud7EprwSalbCpHKpculOfaAk1P+S3QajO1bHG5nqwI1VeGnn4rwaE4xSSSKDsOFFL0XfIDv5iIQ==}
     engines: {node: '>=0.12.18'}
 
   tiny-emitter@2.1.0:
@@ -133,7 +133,7 @@ snapshots:
 
   select@1.1.2: {}
 
-  simple-icons@16.5.0: {}
+  simple-icons@16.6.0: {}
 
   tiny-emitter@2.1.0: {}
 
