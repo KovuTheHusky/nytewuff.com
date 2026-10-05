@@ -6,7 +6,7 @@ gem "jekyll", "~> 4.4"
 gem "jekyll-sass-converter", "~> 3.1"
 
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.17"
+  gem "jekyll-feed", "~> 0.18"
   gem "jekyll-file-size", "~> 0.0.7"
   gem "jekyll-node-module"
   gem "jekyll-redirect-from", "~> 0.16.0"
